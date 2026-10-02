@@ -1,21 +1,23 @@
-# BukuCatering Landing Page
+# BukuCatering — landing page
 
-Landing page siap deploy ke Vercel.
+Redesain dengan gaya editorial: latar kertas, hijau dapur, aksen terracotta, tipografi serif sebagai aksen, dan screenshot aplikasi asli.
 
-## Jalankan lokal
-```bash
-npm install
+## Menjalankan
+
+Gunakan Node.js 22.12+ atau 24 LTS.
+
+```sh
+npm ci
 npm run dev
 ```
 
-## Deploy ke Vercel
-1. Upload seluruh isi folder ini ke repository GitHub baru.
-2. Import repository tersebut di Vercel.
-3. Framework preset: Vite (biasanya terdeteksi otomatis).
-4. Build command: `npm run build`.
-5. Output directory: `dist`.
-6. Deploy.
+## Build
 
-APK berada di `public/download/BukuCatering-v1.0.0.apk` dan tombol download sudah mengarah ke file tersebut.
+```sh
+npm run build
+npm run preview
+```
 
-Saat ada versi baru, masukkan APK baru ke `public/download/` lalu ubah konstanta `apk` dan informasi versi di `src/main.jsx`.
+Folder `dist/` siap untuk hosting statis di root domain. File `preview.html` dapat dibuka langsung tanpa instalasi untuk meninjau desain.
+
+Tautan APK, versi 1.0.0, perkiraan ukuran file, dan screenshot berasal dari materi awal. Tautan unduh belum diverifikasi terhadap server rilis.
