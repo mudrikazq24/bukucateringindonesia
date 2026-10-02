@@ -54,3 +54,5 @@ Favicon tab browser menggunakan logo BukuCatering, disematkan langsung agar tamp
 Kelima tampilan diperbarui menggunakan upload terbaru. File upload Beranda.jpg dan Detail Pesanan.jpg tertukar namanya; aset dipetakan menurut isi gambar. Tab Pengaturan ditambahkan.
 
 Trial 14 hari ditambahkan berdasarkan konfirmasi pemilik, pada informasi unduh, cara mulai, FAQ dan ajakan penutup. Tidak menetapkan tanggal mulai trial atau syarat pembayaran yang belum dikonfirmasi.
+
+Kelima screenshot diganti lagi dengan unggahan terbaru berakhiran (1). Pemetaan Beranda/Detail tetap mengikuti isi gambar, bukan nama unggahannya. Informasi trial 14 hari tetap disertakan.
