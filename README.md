@@ -35,10 +35,20 @@ Folder `dist/` siap untuk hosting statis pada root domain.
 
 ## Cakupan konten
 
-Menekankan tanggal kirim eksplisit, slot makan, menu per jadwal, status kirim terpisah dari pembayaran, satu DP/pelunasan, invoice teks dan QRIS terpisah, ekspor Excel, reminder harian, serta akun dan langganan lewat admin. Tidak mengiklankan pencarian/filter yang masih tercatat sebagai backlog pada audit aktual PRD, pembayaran otomatis, maupun sinkronisasi WhatsApp otomatis. Harga langganan dan kontak admin belum tersedia di dokumen.
+Menekankan tanggal kirim eksplisit, slot makan, menu per jadwal, status kirim terpisah dari pembayaran, satu DP/pelunasan, invoice teks dan QRIS terpisah, ekspor Excel, pelanggan dan master menu, serta akun dan langganan lewat admin. Pencarian nama/nomor pesanan dan filter pembayaran kini terlihat pada screenshot terbaru. Tidak mengiklankan pembayaran otomatis maupun sinkronisasi WhatsApp otomatis. Harga langganan dan kontak admin belum tersedia di dokumen.
 
 Tautan APK, versi 1.0.0, perkiraan ukuran dan screenshot tetap menggunakan materi landing page awal. Tautan rilis belum diperiksa ke server.
 
 ## Verifikasi
 
-Build produksi berhasil. Pemeriksaan render awal mencakup bagian halaman, target navigasi, aset gambar, empat tab, lima FAQ dan demo yang memilih 21 serta 23 September tanpa menambahkan tanggal 22. Review visual dan pengujian interaksi di browser/perangkat belum selesai karena browser uji tidak tersedia di lingkungan eksekusi.
+Build produksi berhasil. Pemeriksaan render awal mencakup bagian halaman, target navigasi, aset gambar, lima tab, lima FAQ dan demo yang memilih 21 serta 23 September tanpa menambahkan tanggal 22. Review visual dan pengujian interaksi di browser/perangkat belum selesai karena browser uji tidak tersedia di lingkungan eksekusi.
+
+## Revisi konten terbaru
+
+Teks kecil “Yang perlu disiapkan, langsung terlihat.” di visual utama dihapus. Promosi pengingat harian dihilangkan sementara menunggu rincian fitur terbaru; bagian fitur diganti dengan pelanggan dan master menu yang sudah dijelaskan dalam dokumen.
+
+Favicon tab browser menggunakan logo BukuCatering, disematkan langsung agar tampil pada hosting dan saat preview.html dibuka dari file lokal.
+
+## Screenshot terbaru
+
+Kelima tampilan diperbarui menggunakan upload terbaru. File upload Beranda.jpg dan Detail Pesanan.jpg tertukar namanya; aset dipetakan menurut isi gambar. Tab Pengaturan ditambahkan.
