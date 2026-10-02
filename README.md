@@ -1,8 +1,12 @@
 # BukuCatering — landing page
 
-Redesain dengan gaya editorial: latar kertas, hijau dapur, aksen terracotta, tipografi serif sebagai aksen, dan screenshot aplikasi asli.
+Redesain berdasarkan PRD_FLUTTER_ANDROID.md v1.5 dan DESIGN_ANDROID.md.
 
-## Menjalankan
+## Preview tanpa instalasi
+
+Ekstrak seluruh ZIP, lalu buka `preview.html`. Biarkan folder `public/` berada di sebelah file tersebut agar screenshot dan ikon terbaca.
+
+## Pengembangan
 
 Gunakan Node.js 22.12+ atau 24 LTS.
 
@@ -18,6 +22,23 @@ npm run build
 npm run preview
 ```
 
-Folder `dist/` siap untuk hosting statis di root domain. File `preview.html` dapat dibuka langsung tanpa instalasi untuk meninjau desain.
+Folder `dist/` siap untuk hosting statis pada root domain.
 
-Tautan APK, versi 1.0.0, perkiraan ukuran file, dan screenshot berasal dari materi awal. Tautan unduh belum diverifikasi terhadap server rilis.
+## Desain dan interaksi
+
+- Hijau #245C43, krem #F8F7F2, sage #EDF2E8, amber #FFF0D8.
+- Screenshot asli; demo pemilihan tanggal terpisah dan berlabel ilustrasi.
+- Reveal sekali saat scroll, transisi screenshot 250–300 ms, hover tombol ringan.
+- Tanpa autoplay, parallax, atau gerakan dekoratif berulang.
+- Pengaturan `prefers-reduced-motion` menonaktifkan animasi; konten tetap terlihat.
+- Tab mendukung tombol panah, Home/End; tombol tanggal memakai aria-pressed.
+
+## Cakupan konten
+
+Menekankan tanggal kirim eksplisit, slot makan, menu per jadwal, status kirim terpisah dari pembayaran, satu DP/pelunasan, invoice teks dan QRIS terpisah, ekspor Excel, reminder harian, serta akun dan langganan lewat admin. Tidak mengiklankan pencarian/filter yang masih tercatat sebagai backlog pada audit aktual PRD, pembayaran otomatis, maupun sinkronisasi WhatsApp otomatis. Harga langganan dan kontak admin belum tersedia di dokumen.
+
+Tautan APK, versi 1.0.0, perkiraan ukuran dan screenshot tetap menggunakan materi landing page awal. Tautan rilis belum diperiksa ke server.
+
+## Verifikasi
+
+Build produksi berhasil. Pemeriksaan render awal mencakup bagian halaman, target navigasi, aset gambar, empat tab, lima FAQ dan demo yang memilih 21 serta 23 September tanpa menambahkan tanggal 22. Review visual dan pengujian interaksi di browser/perangkat belum selesai karena browser uji tidak tersedia di lingkungan eksekusi.
