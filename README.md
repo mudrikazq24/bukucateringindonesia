@@ -60,3 +60,7 @@ Kelima screenshot diganti lagi dengan unggahan terbaru berakhiran (1). Pemetaan 
 Screenshot diperbarui dengan unggahan (2) tanggal 5 Oktober 2026. Seluruh nama file pada unggahan ini sudah cocok dengan isi layar; tidak memakai pemetaan tertukar dari unggahan sebelumnya.
 
 Perbaikan mobile: override hero desktop yang menyebabkan dua kolom pada HP diperbaiki. Hero menggunakan satu kolom di bawah 760px, gambar memakai tinggi otomatis dan tidak menyusut di flex, serta metadata dapat membungkus. Build berhasil; verifikasi visual browser tetap diperlukan.
+
+## Komposisi HP
+
+Layout satu kolom hingga 760px; ukuran judul mengikuti lebar layar. Tombol unduh melebar, tab dua kolom, fitur satu kolom, dan screenshot mempertahankan rasio. Pada HP, catatan dekoratif dipindahkan di bawah screenshot agar tidak menutupi aplikasi. Jarak dan ukuran teks ditingkatkan; aturan tambahan menangani lebar 320–360px. Build berhasil. Verifikasi visual browser/perangkat belum dilakukan.

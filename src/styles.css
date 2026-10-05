@@ -9,3 +9,67 @@ html{scroll-padding-top:28px}.header{padding-top:24px;padding-bottom:24px}.heade
 .phone img,.previewImage img{display:block;height:auto;object-fit:contain;flex-shrink:0}
 .previewImage{min-width:0}.downloadMeta{flex-wrap:wrap}
 @media(max-width:760px){.hero{grid-template-columns:minmax(0,1fr)}.heroArt{justify-self:center}.appPreview{grid-template-columns:minmax(0,1fr)}.previewImage img{width:250px;max-width:100%;height:auto}.heroCopy{width:100%}.heroCopy h1{overflow-wrap:normal}.heroNote .noteLine{flex-shrink:0}}
+/* Mobile composition: readable copy, full-width actions and an unobstructed app preview. */
+@media(max-width:760px){
+ .wrap,.header{padding-left:24px;padding-right:24px}
+ .header{padding-top:14px;padding-bottom:14px;gap:10px}
+ .header .brand{font-size:20px}.header .brand img{width:34px;height:34px}
+ .hero{padding-top:34px;padding-bottom:44px;gap:30px;grid-template-columns:minmax(0,1fr)}
+ .heroCopy .eyebrow{font-size:9px;letter-spacing:1px}
+ .hero h1{font-size:clamp(40px,8.3vw,60px);letter-spacing:-2px;line-height:1.12;margin:20px 0}
+ .heroCopy>p{font-size:16px;line-height:1.75;margin:0 0 25px;max-width:520px}
+ .heroCopy>.button{width:100%;max-width:420px;min-height:54px}
+ .downloadMeta{font-size:11px;gap:8px;line-height:1.7}
+ .heroNote{margin-top:25px;font-size:13px;gap:9px;min-height:44px}
+ .heroArt{height:auto;min-height:0;width:100%;max-width:480px;padding:20px 20px 26px;overflow:hidden;border-radius:24px}
+ .artLabel{font-size:8px;letter-spacing:1px;gap:14px;margin-bottom:20px}
+ .phone{position:relative;top:auto;left:auto;width:clamp(190px,58vw,250px);max-width:100%;margin:0 auto;transform:none;border-width:6px;border-radius:26px;box-shadow:6px 8px 0 #d9e3d1}
+ .paperNote{position:static;transform:none;box-shadow:none;display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:15px;margin-top:24px;border-radius:14px}
+ .paperNote .pin,.paperNote .noteSignature{display:none}
+ .paperNote small{font-size:8px;letter-spacing:.8px;line-height:1.7;max-width:95px}
+ .paperNote p{font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.65;margin:0}
+ .topicStrip>.wrap{padding-top:20px;padding-bottom:20px;gap:14px}
+ .topicStrip span:first-child{font-size:12px}.topicStrip b{font-size:13px}
+ .workflow,.features,.gettingStarted,.faq{padding-top:54px;padding-bottom:54px;gap:25px}
+ h2,.faq h2{font-size:clamp(29px,7.7vw,38px);line-height:1.2;letter-spacing:-1.1px}
+ .sectionIntro>p,.featureHeading>p,.showcaseHeading>p{font-size:15px;line-height:1.75}
+ .workflow h2 br:nth-child(2){display:initial}
+ .workflowFoot{font-size:12px;line-height:1.7;margin-top:22px}.workflowFoot svg{flex-shrink:0}
+ .scheduleDemo{padding:20px;border-radius:20px}.scheduleDemo h3{font-size:23px}
+ .scheduleDemo>p,.capabilityGrid p,.gettingStarted li p,.faq details p{font-size:14px;line-height:1.75}
+ .demoDays{gap:6px;margin:22px 0}.demoDays button{min-height:92px}
+ .capabilityGrid{grid-template-columns:minmax(0,1fr)}
+ .capabilityGrid article:nth-child(n){padding:24px 0;border-left:0}
+ .capabilityGrid h3{font-size:20px;margin:18px 0 10px;line-height:1.4}
+ .capabilityGrid p{max-width:520px}.capabilityTop{justify-content:flex-start;gap:13px}
+ .featureHeading{margin-bottom:28px}
+ .showcase{padding:54px 0}.showcaseHeading{margin-bottom:26px}
+ .appPreview{grid-template-columns:minmax(0,1fr);gap:28px;padding-top:24px}
+ .tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .tabs button{font-size:13px;min-height:48px;padding:12px 8px;white-space:normal;border-radius:12px}
+ .tabs button:last-child{grid-column:1/-1}
+ .previewNumber{margin-top:27px}.previewCopy h3{font-size:30px;margin:17px 0;line-height:1.25;max-width:100%}
+ .previewCopy p{font-size:15px;line-height:1.75}.textLink{min-height:48px}
+ .previewCaption{margin-top:22px;line-height:1.7}
+ .previewImage{padding:24px 20px;border-radius:20px;gap:16px}
+ .previewImage img{width:min(260px,100%);height:auto;flex-shrink:0;max-width:100%}
+ .gettingStarted li{gap:16px;padding:23px 0}.gettingStarted li>span{width:38px;height:38px}
+ .gettingStarted h3{font-size:18px;line-height:1.4}
+ .faq summary{font-size:15px;padding:20px 0;min-height:64px}
+ .closing{padding:40px 0}.closing h2{font-size:clamp(27px,7vw,36px);line-height:1.3}
+ .closing .button{width:100%;max-width:420px;min-height:54px;margin-top:8px}
+ .closing p{font-size:11px;line-height:1.8;max-width:350px}
+ footer{padding-top:27px;padding-bottom:30px;gap:16px}
+ footer small{font-size:11px}footer p{font-size:12px;line-height:1.7}
+}
+@media(max-width:360px){
+ .wrap,.header{padding-left:18px;padding-right:18px}
+ .hero h1{font-size:37px;letter-spacing:-1.7px}
+ .heroCopy .eyebrow{font-size:8px;letter-spacing:.6px}
+ .heroArt{padding:16px 16px 20px}.artLabel{font-size:7px}
+ .heroNote{font-size:12px}.heroNote .noteLine{width:22px}
+ .scheduleDemo{padding:16px}.demoTop>span{font-size:7px;letter-spacing:.4px}
+ .demoDays{gap:4px}.demoDays button{min-height:86px}.demoDays b{font-size:20px}
+ .button{padding:16px;font-size:13px}.button svg:last-child{margin-left:3px}
+ footer .brand{font-size:17px}
+}
