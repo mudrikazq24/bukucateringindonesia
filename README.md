@@ -56,3 +56,5 @@ Kelima tampilan diperbarui menggunakan upload terbaru. File upload Beranda.jpg d
 Trial 14 hari ditambahkan berdasarkan konfirmasi pemilik, pada informasi unduh, cara mulai, FAQ dan ajakan penutup. Tidak menetapkan tanggal mulai trial atau syarat pembayaran yang belum dikonfirmasi.
 
 Kelima screenshot diganti lagi dengan unggahan terbaru berakhiran (1). Pemetaan Beranda/Detail tetap mengikuti isi gambar, bukan nama unggahannya. Informasi trial 14 hari tetap disertakan.
+
+Screenshot diperbarui dengan unggahan (2) tanggal 5 Oktober 2026. Seluruh nama file pada unggahan ini sudah cocok dengan isi layar; tidak memakai pemetaan tertukar dari unggahan sebelumnya.
