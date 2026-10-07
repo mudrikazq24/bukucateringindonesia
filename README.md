@@ -64,3 +64,5 @@ Perbaikan mobile: override hero desktop yang menyebabkan dua kolom pada HP diper
 ## Komposisi HP
 
 Layout satu kolom hingga 760px; ukuran judul mengikuti lebar layar. Tombol unduh melebar, tab dua kolom, fitur satu kolom, dan screenshot mempertahankan rasio. Pada HP, catatan dekoratif dipindahkan di bawah screenshot agar tidak menutupi aplikasi. Jarak dan ukuran teks ditingkatkan; aturan tambahan menangani lebar 320–360px. Build berhasil. Verifikasi visual browser/perangkat belum dilakukan.
+
+Kelima screenshot diperbarui dengan unggahan (3) tanggal 7 Oktober 2026. Istilah pada teks pendamping mengikuti tampilan terbaru: master paket catering dan rekap paket.
